@@ -8,48 +8,48 @@ Experiment results show that standard ML approaches, with the addition of proper
 # 📂 Dataset Source
 🧾**Dataset 1** – Resume Dataset 
 
-**File Name:** Resume.csv
+ * **File Name:** Resume.csv
 
-**Source:** Rescued from Kaggle's open resume classification dataset.
+ * **Source:** Rescued from Kaggle's open resume classification dataset.
 
-**Size:** Around 4,900 records.
+ * **Size:** Around 4,900 records.
 
-**Columns utilized:** Resume, Category, and ID.
+ * **Columns utilized:** Resume, Category, and ID.
 
-**Description:** Each of the records comprises a text resume and associated job category label like Data Science, HR, Web Development, Testing, Operations, etc.
+ * **Description:** Each of the records comprises a text resume and associated job category label like Data Science, HR, Web Development, Testing, Operations, etc.
 
-**Preprocessing Performed:**
+ * **Preprocessing Performed:**
 
-* Removal of unwanted digits, punctuation, and characters
+    * Removal of unwanted digits, punctuation, and characters
 
-* Conversion of text into lower case for standardization
+    * Conversion of text into lower case for standardization
+ 
+    * Missing values and null fields processed
 
-* Missing values and null fields processed
+    * Only Cases (Resume, Category, ID) are kept
 
-* Only Cases (Resume, Category, ID) are kept
-
-* Text transformation through TF-IDF vectorization for training the model
+    * Text transformation through TF-IDF vectorization for training the model
 
 
 🧾**Dataset 2** – Updated Resume Dataset 
 
-**File Name:** UpdatedResumeDataSet.csv
+* **File Name:** UpdatedResumeDataSet.csv
 
-**Source:** Extended Resume dataset augmented with more cleaned text samples (from research repositories and Kaggle).
+* **Source:** Extended Resume dataset augmented with more cleaned text samples (from research repositories and Kaggle).
 
-**Size:** Around 5,000 records.
+* **Size:** Around 5,000 records.
 
-**Columns utilized:** Resume, Category, and ID.
+* **Columns utilized:** Resume, Category, and ID.
 
-**Preprocessing Performed:**
+* **Preprocessing Performed:**
 
-* Deletion of HTML tags, special characters, and repeated whitespace
+    * Deletion of HTML tags, special characters, and repeated whitespace
 
-* Text normalization and tokenization
+    * Text normalization and tokenization
 
-* Null or invalid value replacement
+    * Null or invalid value replacement
 
-* TF-IDF vectorization for text representation
+    * TF-IDF vectorization for text representation
 
 # ⚙️ Methods
 🎯 **Problem Approach**
