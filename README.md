@@ -1,14 +1,14 @@
-# 🧠 Automated Job Role Prediction from Resume and Job Description using Traditional Machine Learning Approaches
+# Automated Job Role Prediction from Resume and Job Description using Traditional Machine Learning Approaches
 
 The objective of this project is to automatically classify job positions with the help of Natural Language Processing (NLP) and Machine Learning (ML) algorithms. The objective is to predict the appropriate category or position of the job based on the resume or job description text.
 The concern is important because resume screening and role matching take too much time manually and are subject to human errors. A smart system with a capability to process text and classify roles correctly saves job seekers, recruiters, and HR departments time in hiring.
-Two data sets were utilized — one with resumes and the other with categorized updated resumes. A series of ML models were trained and tested after post-text preprocessing and TF-IDF vectorization. In all, the Random Forest Classifier provided the optimal results with an accuracy rate of approximately 93% for Dataset 1 and 90% for Dataset 2.
+Two data sets were utilized — one with resumes and the other with categorized updated resumes. A series of ML models were trained and tested after post-text preprocessing and TF-IDF vectorization. In all, the SVM provided the optimal results with an accuracy rate of approximately 64% for Dataset 1 and 94% for Dataset 2.
 Experiment results show that standard ML approaches, with the addition of proper text representation, can successfully carry out automated job role prediction with acceptable accuracy and efficiency.
 
 <img src="UI_Machine_Learning/UI Video.gif" width="1000">
 
-# 📂 Dataset Source
-🧾**Dataset 1** – Resume Dataset 
+# Dataset Source
+**Dataset 1** – Resume Dataset 
 
  * **File Name:** Resume.csv
 
@@ -33,7 +33,7 @@ Experiment results show that standard ML approaches, with the addition of proper
     * Text transformation through TF-IDF vectorization for training the model
 
 
-🧾**Dataset 2** – Updated Resume Dataset 
+**Dataset 2** – Updated Resume Dataset 
 
 * **File Name:** UpdatedResumeDataSet.csv
 
@@ -54,7 +54,7 @@ Experiment results show that standard ML approaches, with the addition of proper
     * TF-IDF vectorization for text representation
 
 # ⚙️ Methods
-🎯 **Problem Approach**
+**Problem Approach**
 
 The general goal of this project is to automatically classify job positions from text information — i.e., resumes or job postings — based on Natural Language Processing (NLP) and Machine Learning (ML) methods.
 
@@ -62,7 +62,7 @@ To achieve that, the process was broken down into four primary stages:
 
 <img width="772" height="400" alt="image" src="https://github.com/user-attachments/assets/0c4db54a-d84b-4228-8713-2161191f2be9" />
 
-💡 **Why This Approach Works**
+**Why This Approach Works**
 
 * TF-IDF is able to effectively identify relevance of words between job postings and resumes without favouring highly recurring but less explanatory terms.
 
@@ -73,18 +73,18 @@ To achieve that, the process was broken down into four primary stages:
 The method keeps precision, interpretability, and efficiency just right and is therefore realistic for HR automation and smart resume filtering platforms.
 
 
-🔁**Alternative Approaches Considered**
+**Alternative Approaches Considered**
 
 
 <img width="1056" height="307" alt="image" src="https://github.com/user-attachments/assets/fc8eefe9-a36e-4583-82ad-abe779743846" />
 
-🧭 **Methodology Flow Diagram**
+**Methodology Flow Diagram**
 
 <img width="800" height="1000" alt="image" src="https://github.com/user-attachments/assets/8e3842e4-7c11-4580-b214-58091046bdc9" />
 
 
 
-🚀**Steps to Run Code**
+**Steps to Run Code**
 * **Clone the Repository**
 * **Install Required Dependencies**
   * pip install -r requirements.txt
@@ -103,10 +103,10 @@ The method keeps precision, interpretability, and efficiency just right and is t
   * Click on Predict to view the predicted job role.
   * You can also click Evaluate Models to see accuracy metrics for that dataset.
 
-# 📊 Experiments and Results Summary
+# Experiments and Results Summary
 For comparison of the efficacy of the NLP-based Job Role Classification system, some classic machine learning models were trained and compared on two data sets (Resume.csv and UpdatedResumeDataSet.csv). All models were compared based on uniform preprocessing, TF-IDF feature extraction, and the same data splits to provide a genuine comparison.
 
-⚗️**Experimental Setup**
+**Experimental Setup**
 
 * Text Preprocessing:
 Special characters removed, text converted to lower case, and whitespace regulated.
@@ -120,7 +120,7 @@ TF-IDF Vectorization with max feature size 5000 used.
 * Evaluation Metrics:
 The performance of all the models was good according to Accuracy, Precision, Recall, and F1-score. All the results indicate that SVM performed best in all cases for both datasets.
 
-📈**Model Comparison**
+**Model Comparison**
 
 <img width="800" height="294" alt="image" src="https://github.com/user-attachments/assets/76ca107a-bb4c-45d7-9d7f-93f34c27c71a" />
 
@@ -135,7 +135,7 @@ The performance of all the models was good according to Accuracy, Precision, Rec
 * Visualizations like confusion matrices and category distribution plots were employed to interpret model predictions and indicate repeated misclassifications.
 
 
-🖥️**Streamlit Interface**
+**Streamlit Interface**
 
 A Streamlit web app was created exclusively for user-interactive and user-based classification.
 
@@ -156,14 +156,14 @@ The integration demonstrates how machine learning models can be shifted from off
 
 
 
-# 🧩 Conclusion
+# Conclusion
 This project is successfully proven wherein Machine Learning and Natural Language Processing (NLP) can be employed for automatic classification of job titles from text-based resume data. Employing Support Vector Machine (SVM), Naïve Bayes, and Logistic Regression models, we found SVM to work best on both sets with the highest accuracy and balanced precision-recall tradeoff.
 
 The paper also emphasizes the significance of preprocessing data, such as text cleaning and TF-IDF feature engineering, in order to ensure model reliability and accuracy. The Streamlit web interface developed fills the gap between technical deployment and real usability, such that users are able to interact with models easily, evaluate, and get real-time predictions.
 
 In the future, this paradigm can be augmented with deep learning algorithms like BERT or LSTM networks for better contextual analysis, and resume screening and recommendation software for hiring portals.
 
-# 📚 References
+# References
 
 * Scikit-learn Documentation: https://scikit-learn.org/
 
