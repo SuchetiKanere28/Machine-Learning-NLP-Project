@@ -5,7 +5,7 @@ The concern is important because resume screening and role matching take too muc
 Two data sets were utilized — one with resumes and the other with categorized updated resumes. A series of ML models were trained and tested after post-text preprocessing and TF-IDF vectorization. In all, the Random Forest Classifier provided the optimal results with an accuracy rate of approximately 93% for Dataset 1 and 90% for Dataset 2.
 Experiment results show that standard ML approaches, with the addition of proper text representation, can successfully carry out automated job role prediction with acceptable accuracy and efficiency.
 
-<img src="UI_Machine_Learning /UI Video.gif" width="1000">
+<img src="UI_Machine_Learning/UI Video.gif" width="1000">
 
 # 📂 Dataset Source
 🧾**Dataset 1** – Resume Dataset 
