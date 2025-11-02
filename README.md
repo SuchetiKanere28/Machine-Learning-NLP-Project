@@ -150,7 +150,7 @@ Features:
 
 The integration demonstrates how machine learning models can be shifted from offline trial to an easily embraced real-world solution for recruiters, HR practitioners, and data analysts.
 
-<img width="1919" height="863" alt="image" src="https://github.com/user-attachments/assets/cc6ed30e-1516-43bf-81b4-aea6f23a48e7" />
+
 
 
 
