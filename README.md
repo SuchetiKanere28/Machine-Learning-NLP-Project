@@ -53,7 +53,7 @@ Experiment results show that standard ML approaches, with the addition of proper
 
     * TF-IDF vectorization for text representation
 
-# ⚙️ Methods
+# Methods
 **Problem Approach**
 
 The general goal of this project is to automatically classify job positions from text information — i.e., resumes or job postings — based on Natural Language Processing (NLP) and Machine Learning (ML) methods.
